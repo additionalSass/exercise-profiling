@@ -31,6 +31,8 @@ Kemudian, ada juga hasil dari Profiler milik Intellij.
 
 Dan enam hasil profiling di atas berbicara sendiri.
 
+Secara umum, metode lama yang melibatkan pembuatan objek dalam Java inferior (dalam segi waktu eksekusi) dibandingkan dengan memanfaatkan @Query annotation di interfaca masing-masing repository dan memanggil method yang berkaitan dalam service! 
+
 Untuk menjawab ketujuh pertanyaan:
 1. JMeter digunakan untuk pengujian beban dan mengukur performance aplikasi secara menyeluruh, sedangkan IntelliJ Profiler digunakan membuat profil tingkat kode untuk mengidentifikasi masalah performance dalam method dan class tertentu.
 2. Pembuatan profil membantu mengidentifikasi bottleneck performance dengan memberikan informasi terperinci tentang waktu eksekusi, beban CPU, dan konsumsi memori masing-masing method dan class dalam kode Java yang saya tulis.
